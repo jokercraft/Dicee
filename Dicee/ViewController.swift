@@ -56,7 +56,7 @@ class ViewController: UIViewController {
             pointPlayer2.text = String(sumOfPoints2)
             
                 if sumOfPoints2 == sumOfPoints1{
-                    playerPosition.text = "DRAW!"
+                    playerPosition.text = "Draw!"
                     sumOfPoints2 = 0
                     sumOfPoints1 = 0
                 }
